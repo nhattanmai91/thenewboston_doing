@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tan.myapplication">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@drawable/facebook" android:theme="@style/AppTheme">
+
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+            </activity>
+
+        <activity android:name=".Second">
+            <intent-filter>
+                <action android:name="com.example.tan.myapplication.SECOND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            </activity>
+
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="com.example.tan.myapplication.MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TextPlay">
+            <intent-filter>
+                <action android:name="com.example.tan.myapplication.TEXTPLAY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+
+</manifest>
