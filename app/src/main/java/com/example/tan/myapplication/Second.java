@@ -13,6 +13,6 @@ public class Second extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setContentView(R.layout.text);
+        super.setContentView(R.layout.second);
     }
 }

@@ -45,7 +45,7 @@ public class Main extends Activity {
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }finally {
-                    Intent openStartingPoint = new Intent("com.example.tan.myapplication.TEXTPLAY");
+                    Intent openStartingPoint = new Intent("com.example.tan.myapplication.MENU");
                     startActivity(openStartingPoint);
                 }
             }
